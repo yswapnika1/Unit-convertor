@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#AFC2D1"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the number in Metres"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/metresedittext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/converttocm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textColor="@color/black"
+        app:backgroundTint="#7F84A1"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Number in centimetres is"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/answerincm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the number in Centimetres"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/cmedittext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/converttoMetres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textColor="@color/black"
+        app:backgroundTint="#7F84A1"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Number in Metres is"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/answerinmetres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundmain"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit Converter"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+  <Button
+      android:id="@+id/kiloTopounds"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/title"
+      android:backgroundTint="#5E7180"
+      android:text="Kilos To Pounds"
+      android:textColor="@color/black"
+      android:textAllCaps="false"
+      android:textSize="20sp"
+      android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/KmphToMph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Kmph To mph"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/FToCelcius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Farenhiet To Celcius"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/LitToMl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Litres To Millitres"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/KgToG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Kilograms To Grams"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/MtoCm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Metres To Centimetres"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/FeetTocm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Feet To Centimetres"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/FeetToInches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Feet To Inches"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/InchToCenti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:backgroundTint="#5E7180"
+        android:text="Inches To Centimetres"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+
+</LinearLayout>
